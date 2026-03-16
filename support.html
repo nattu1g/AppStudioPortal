@@ -15,22 +15,17 @@
 
     <main class="page-container glass-card">
         <h1>サポート & お問い合わせ</h1>
-        <p>アプリの不具合報告、機能要望、その他のお問い合わせはこちらからお願いします。</p>
+        <p>アプリに関するお問い合わせは、以下の各種 SNS の DM にて受け付けております。</p>
         
         <div class="contact-card">
-            <p>現在、お問い合わせは以下のメールアドレス、または SNS にて受け付けております。</p>
-            <p style="font-size: 1.2rem; color: var(--accent-purple); margin: 20px 0;">support@example.com</p>
-            <p>※返信には数日お時間をいただく場合がございます。</p>
+            <div class="sns-support-links">
+                <a href="https://www.instagram.com/あなたのID" class="btn btn-outline" target="_blank">Instagram</a>
+                <a href="https://www.tiktok.com/@あなたのID" class="btn btn-outline" target="_blank">TikTok</a>
+                <a href="https://twitter.com/あなたのID" class="btn btn-outline" target="_blank">X (Twitter)</a>
+            </div>
+            <p style="margin-top: 20px; font-size: 0.8rem; color: var(--text-dim);">※返信にはお時間をいただく場合がございます。あらかじめご了承ください。</p>
         </div>
 
-        <section style="margin-top: 40px;">
-            <h2>よくある質問 (FAQ)</h2>
-            <div class="faq-item">
-                <h3>Q. データはバックアップされますか？</h3>
-                <p>A. 現在、すべてのデータはデバイス内に保存されています。iCloud 同期機能は将来のアップデートで検討中です。</p>
-            </div>
-        </section>
-        
         <div style="margin-top: 50px;">
             <a href="index.html" class="btn btn-outline">ホームへ戻る</a>
         </div>
@@ -39,11 +34,11 @@
     <style>
         .sub-page main { padding-top: 151px; }
         .page-container { max-width: 800px; margin: 0 auto 100px; padding: 60px; }
-        h1 { margin-bottom: 30px; }
-        .contact-card { padding: 30px; border-radius: 15px; background: rgba(255,255,255,0.03); border: 1px solid var(--glass-border); text-align: center; }
+        h1 { margin-bottom: 30px; text-align: center; }
+        .contact-card { padding: 40px; border-radius: 15px; background: rgba(255,255,255,0.03); border: 1px solid var(--glass-border); text-align: center; }
+        .sns-support-links { display: flex; flex-direction: column; gap: 15px; max-width: 300px; margin: 0 auto; }
+        .sns-support-links .btn { width: 100%; }
         h2 { margin: 40px 0 20px; color: var(--accent-blue); }
-        .faq-item h3 { font-size: 1.1rem; margin-bottom: 10px; color: #fff; }
-        .faq-item p { margin-bottom: 20px; color: var(--text-dim); }
     </style>
 </body>
 </html>
