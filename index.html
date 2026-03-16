@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My App Studio | 革新的な体験を手のひらに</title>
+    <meta name="description" content="個人開発者による洗練された iOS アプリコレクション。底値メモ (Sokone)、なんでもメモ (SimpleAnything) などの最新アプリを公開中。">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-radial"></div>
+    
+    <header>
+        <nav>
+            <div class="logo">MY APP STUDIO</div>
+            <div class="nav-links">
+                <a href="#apps">APPS</a>
+                <a href="#about">ABOUT</a>
+                <a href="#support">SUPPORT</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content" data-aos="fade-up">
+                <h1 class="glass-text">Focus on the Essence.</h1>
+                <p>無駄を削ぎ落とし、本質的な価値だけを形にする。<br>あなたの日常を、少しだけスマートにするアプリたち。</p>
+                <div class="cta-group">
+                    <a href="#apps" class="btn btn-primary">アプリを見る</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="apps" class="apps-grid">
+            <h2 class="section-title">Latest Creations</h2>
+            <div class="grid-container">
+                <!-- 底値メモ Card -->
+                <div class="app-card glass-card" data-aos="fade-up">
+                    <div class="app-icon-placeholder sokone-gradient">
+                        <span class="icon-text">🛒</span>
+                    </div>
+                    <div class="app-info">
+                        <h3>底値メモ (Sokone)</h3>
+                        <p>「この価格は買いか？」を瞬時に判断。レシートOCRと爆速検索で、賢い買い物をサポートする節約の相棒。</p>
+                        <div class="app-tags">
+                            <span>iOS</span>
+                            <span>Utility</span>
+                        </div>
+                        <a href="https://sundayman521.github.io/SmartShopperLog/" class="btn btn-outline">詳細を見る</a>
+                    </div>
+                </div>
+
+                <!-- なんでもメモ Card -->
+                <div class="app-card glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="app-icon-placeholder anything-gradient">
+                        <span class="icon-text">📝</span>
+                    </div>
+                    <div class="app-info">
+                        <h3>なんでもメモ</h3>
+                        <p>思いついた瞬間に打ち込むだけ。究極にシンプルなタスク管理アプリ。達成時の爽快感をあなたに。</p>
+                        <div class="app-tags">
+                            <span>iOS</span>
+                            <span>Productivity</span>
+                        </div>
+                        <a href="https://sundayman521.github.io/SimpleAnythingTodo/" class="btn btn-outline">詳細を見る</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="support" class="support-section glass-card" data-aos="fade-up">
+            <h2>Support & Privacy</h2>
+            <p>アプリに関するお問い合わせや、プライバシーポリシーについてはこちら。</p>
+            <div class="support-links">
+                <a href="support.html">お問い合わせ</a>
+                <a href="privacy.html">プライバシーポリシー</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My App Studio. All Rights Reserved.</p>
+        <div class="social-links">
+            <a href="#">Instagram</a>
+            <a href="#">X (Twitter)</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>
