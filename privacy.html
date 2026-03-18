@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy | My App Studio</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body class="sub-page">
     <header>
@@ -14,43 +15,47 @@
     </header>
 
     <main class="page-container glass-card">
-        <h1>プライバシーポリシー</h1>
-        <p>最終更新日: 2026年3月16日</p>
+        <h1>Privacy Policy / プライバシーポリシー</h1>
+        <p>Last Updated: March 18, 2026</p>
         
-        <section>
-            <h2>データの収集について</h2>
-            <p>当スタジオが提供するアプリ（底値メモ、なんでもメモ等）は、お客様の個人情報を収集し、外部サーバーへ送信することはありません。</p>
-            <p>すべてのデータは、お客様のデバイス内にのみ保存されます。</p>
-        </section>
+        <div class="lang-section">
+            <section>
+                <h2>[English] Data Collection & Usage</h2>
+                <p>Our applications (such as Sokone, SimpleAnything, and AutoApp) do not collect personal information for transmission to external servers. All data remains exclusively on your own device or local machine.</p>
+            </section>
 
-        <section>
-            <h2>広告および分析</h2>
-            <p>当アプリでは、利便性向上のために匿名の統計情報を取得する場合がありますが、個人を特定できる情報は含まれません。</p>
-        </section>
+            <section>
+                <h2>TikTok API Integration</h2>
+                <p>AutoApp integrates with the <strong>TikTok Content Posting API</strong> to facilitate automated content management. We only access your account through access tokens generated after your explicit authorization.</p>
+                <p><strong>Data Privacy:</strong> We do not store, share, or sell your videos, photos, or profile data. All authentication tokens and promotional assets are stored locally on your machine and are never transmitted to our own servers or any third parties.</p>
+            </section>
 
-        <section>
-            <h2>TikTok API Integration</h2>
-            <p>Our app (AutoApp) integrates with the TikTok Content Posting API. We only access your TikTok account using the access tokens generated through your explicit authorization.</p>
-            <p><strong>Data Privacy:</strong> We do not store, collect, or share your videos, photos, or personal profile data. All authentication tokens are stored locally on your own machine and are never transmitted to our servers or any third parties.</p>
-        </section>
+            <section>
+                <h2>[日本語] データの収集と利用について</h2>
+                <p>当スタジオが提供するアプリは、お客様の個人情報を収集し、当方の外部サーバーへ送信することはありません。すべてのデータはお客様のデバイスまたはローカルマシン内にのみ保存されます。</p>
+            </section>
 
-        <section>
-            <h2>お問い合わせ / Contact</h2>
-            <p>プライバシーに関するご質問は、<a href="support.html">サポートページ</a>よりご連絡ください。</p>
-        </section>
-        
+            <section>
+                <h2>TikTok API の連携について</h2>
+                <p>当ツール（AutoApp）は、TikTok Content Posting API を利用してコンテンツの自動投稿を支援します。これにはお客様の明示的な認可（OAuth）が必要です。</p>
+                <p><strong>データ保護:</strong> 当方は、お客様の動画、写真、プロフィールデータを保存したり、第三者と共有することはありません。認証トークンはローカル環境にのみ保存され、安全に管理されます。</p>
+            </section>
+        </div>
+
         <div style="margin-top: 50px;">
-            <a href="index.html" class="btn btn-outline" style="margin-right:10px;">ホームへ戻る</a>
-            <a href="terms.html" class="btn btn-outline">Terms of Service</a>
+            <a href="index.html" class="btn btn-outline" style="margin-right:10px;">Home / ホームへ</a>
+            <a href="terms.html" class="btn btn-outline">Terms of Service / 利用規約</a>
         </div>
     </main>
 
     <style>
+        :root { --accent-blue: #60a5fa; }
         .sub-page main { padding-top: 151px; }
-        .page-container { max-width: 800px; margin: 0 auto 100px; padding: 60px; }
+        .page-container { max-width: 800px; margin: 0 auto 100px; padding: 60px; font-family: 'Outfit', 'Noto Sans JP', sans-serif; }
         h1 { margin-bottom: 30px; }
-        h2 { margin: 40px 0 20px; color: var(--accent-blue); }
-        section p { margin-bottom: 15px; }
+        h2 { margin: 40px 0 20px; color: var(--accent-blue); font-size: 1.4rem; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 10px; }
+        section p { margin-bottom: 15px; line-height: 1.6; color: rgba(255,255,255,0.8); }
+        strong { color: #fff; }
     </style>
 </body>
 </html>
